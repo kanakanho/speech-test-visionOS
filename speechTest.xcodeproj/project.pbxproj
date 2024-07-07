@@ -13,6 +13,7 @@
 		EB5AC7392C3A9C1B00B7C0A2 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5AC7382C3A9C1B00B7C0A2 /* ImmersiveView.swift */; };
 		EB5AC73B2C3A9C1C00B7C0A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5AC73A2C3A9C1C00B7C0A2 /* Assets.xcassets */; };
 		EB5AC73E2C3A9C1C00B7C0A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5AC73D2C3A9C1C00B7C0A2 /* Preview Assets.xcassets */; };
+		EB5AC7482C3AAA9F00B7C0A2 /* SpeechRecognitionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5AC7472C3AAA9F00B7C0A2 /* SpeechRecognitionEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB5AC73A2C3A9C1C00B7C0A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB5AC73D2C3A9C1C00B7C0A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB5AC73F2C3A9C1C00B7C0A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB5AC7472C3AAA9F00B7C0A2 /* SpeechRecognitionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				EB5AC7342C3A9C1B00B7C0A2 /* speechTestApp.swift */,
 				EB5AC7362C3A9C1B00B7C0A2 /* ContentView.swift */,
 				EB5AC7382C3A9C1B00B7C0A2 /* ImmersiveView.swift */,
+				EB5AC7472C3AAA9F00B7C0A2 /* SpeechRecognitionEngine.swift */,
 				EB5AC73A2C3A9C1C00B7C0A2 /* Assets.xcassets */,
 				EB5AC73F2C3A9C1C00B7C0A2 /* Info.plist */,
 				EB5AC73C2C3A9C1C00B7C0A2 /* Preview Content */,
@@ -160,6 +163,7 @@
 				EB5AC7372C3A9C1B00B7C0A2 /* ContentView.swift in Sources */,
 				EB5AC7352C3A9C1B00B7C0A2 /* speechTestApp.swift in Sources */,
 				EB5AC7392C3A9C1B00B7C0A2 /* ImmersiveView.swift in Sources */,
+				EB5AC7482C3AAA9F00B7C0A2 /* SpeechRecognitionEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +327,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
